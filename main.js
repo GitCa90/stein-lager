@@ -169,7 +169,7 @@ let data = {
             surface: "",
             origin: "",
             stored: "Sviland",
-            image: "Storgatestein/ce3werouu23440u23.jpg",
+            image: "storgatestein/ce3werouu23440u23.jpg",
             note: "",
         },
     ],
