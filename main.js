@@ -607,7 +607,7 @@ function squareMeterOrMeter(element) {
     }
 }
 
-function mininmizeButton(element) {
+function minimizeButton(element) {
     const materialName = element.dataset.material
     const section = document.querySelector(`.material-section[data-material="${materialName}"]`)
     const container = section.querySelector(".item-line")
@@ -739,7 +739,7 @@ document.addEventListener("click", (event) => {
 
     const minButtonElement = event.target.closest(".minimize-btn")
     if (minButtonElement) {
-        mininmizeButton(minButtonElement)
+        minimizeButton(minButtonElement)
     }
 
     const sortButtonElement = event.target.closest(".sort-btn")
@@ -814,3 +814,4 @@ bigImage.addEventListener("click", () => {
 overlay.addEventListener("click", () => {
     overlay.style.display = "none";
 });
+
